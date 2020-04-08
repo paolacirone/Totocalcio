@@ -3,6 +3,7 @@ package it.polito.tdp.totocalcio.model;
 public enum RisultatoPartita {
 	UNO, DUE, ICS ;
 	
+	//prende una stringa e restituisce 
 	public static RisultatoPartita valueOf(char c) {
 		switch(c) {
 		case '1':
